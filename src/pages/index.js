@@ -6,9 +6,6 @@ import graphql from "graphql";
 export default class IndexPage extends React.Component {
 
   render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
-
     return (
       <section className="section">
         Hello This is the new page.
